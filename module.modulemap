@@ -1,4 +1,4 @@
-module Clibgit {
+module Clibgit2 {
 	umbrella header "git2.h"
 
 	export *
