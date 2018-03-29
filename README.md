@@ -2,8 +2,13 @@
 ### Swift Package Manager wrapper for the libgit2 system library
 
 ## Installation
+Install the library with brew
 ```
 brew install libgit2
+```
+Or manually link against a different binary at build time
+```
+swift build -Xlinker -L/usr/local/lib/
 ```
 
 ## Inclusion as dependency
